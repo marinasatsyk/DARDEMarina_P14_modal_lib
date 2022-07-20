@@ -1,0 +1,56 @@
+{
+    "name": "darde_p14_modal_lib",
+    "version": "1.0.0",
+    "description": "A simple modal react component for any  react application",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook",
+        "build-lib": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marinasatsyk/DARDEMarina_P14_modal_lib.git"
+    },
+    "keywords": [
+        "react",
+        "component",
+        "modal"
+    ],
+    "author": {
+        "name": "DARDE Marina"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/marinasatsyk/DARDEMarina_P14_modal_lib/issues"
+    },
+    "homepage": "https://github.com/marinasatsyk/DARDEMarina_P14_modal_lib#readme",
+    "devDependencies": {
+        "@babel/core": "^7.18.9",
+        "@babel/preset-react": "^7.18.6",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@storybook/addon-actions": "^6.5.9",
+        "@storybook/addon-essentials": "^6.5.9",
+        "@storybook/addon-interactions": "^6.5.9",
+        "@storybook/addon-links": "^6.5.9",
+        "@storybook/builder-webpack4": "^6.5.9",
+        "@storybook/manager-webpack4": "^6.5.9",
+        "@storybook/react": "^6.5.9",
+        "@storybook/testing-library": "^0.0.13",
+        "babel-loader": "^8.2.5",
+        "prop-types": "^15.8.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "rollup": "^2.77.0",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-terser": "^7.0.2"
+    },
+    "peerDependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    }
+}
