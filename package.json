@@ -1,6 +1,6 @@
 {
     "name": "darde_p14_modal_lib",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple modal react component for any  react application",
     "main": "dist/index.js",
     "module": "dist/index.es.js",

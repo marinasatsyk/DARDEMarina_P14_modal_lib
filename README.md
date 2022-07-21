@@ -35,7 +35,7 @@ B. Then you destructure and implement the state of Modal component into a react 
 
 ```
 
-In this example isEmployeeCreated, toggleEmployeeCreated are the names of variable and function you choice.
+In this example MyVariableName, MyFunctionName are the names of variable and function you choice.
 
 C. Then you declare the modal component into your react component
 
@@ -49,7 +49,7 @@ C. Then you declare the modal component into your react component
 </Modal>
 ```
 
-D. You implement the toggle function for display the modal element where you whant to use it.
+D. You have to implement the toggle function for display the modal element where you whant to use it.
 
 ```
 <button onClick={()=> MyFunctionName}>
